@@ -10,6 +10,4 @@ RUN unzip uliya.zip
 RUN cp -rvf uliya-html/* .
 RUN rm -rf uliya uliya.zip
 CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
-EXPOSE 80
-~                                                                                                                                             
-~         
+EXPOSE 80                                                                                                                                        
